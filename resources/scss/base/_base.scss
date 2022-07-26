@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+i {
+    width: 1em !important
+}
+
+.about, .sign_up {
+    background-color: #F6F9FF ;
+}
+
+footer {
+    padding-bottom: 100px;
+}

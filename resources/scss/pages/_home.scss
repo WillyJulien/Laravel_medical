@@ -1,0 +1,56 @@
+.home {
+    background-image: url(/storage/home_bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+
+}
+
+.home_btn {
+    margin-top: 30px;
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    .home {
+        height: 500px
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home {
+        height: 400px
+    }
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .home {
+        height: 350px
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .home {
+        height: 230px
+    }
+    .home_btn {
+        margin-top: 0;
+    }
+    
+    }
+   
+   
+
+  @media screen and (max-width: 400px) {
+
+  }
+
+
+
+.search_block {
+    background-color: $color-1;
+    height: 230px;
+
+  }

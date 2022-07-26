@@ -1,0 +1,46 @@
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: none !important;  
+}
+
+a:hover {
+    color: black !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: $color-1 !important;
+}
+
+h1 {
+    font-size: 56px !important;
+}
+
+h2 {
+    font-size: 36px !important;
+}
+
+h3 {
+    font-size: 24px !important;
+}
+
+@media screen and (max-width: 992px) {
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 32px !important;
+    }
+    
+    h2 {
+        font-size: 22px !important;
+    }
+}
