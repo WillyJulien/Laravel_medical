@@ -105,15 +105,15 @@ var lc = L.control.locate({
   },
   style:'bar',
   autoComplete: true, // optional: true|false  - default true
-  autoCompleteDelay: 100, // optional: number      - default 250
+  autoCompleteDelay: 250, // optional: number      - default 250
  
   //maxMarkers: 1, // optional: number      - default 1
-  //retainZoomLevel: false, // optional: true|false  - default false
+  retainZoomLevel: false, // optional: true|false  - default false
   animateZoom: true, // optional: true|false  - default true
   autoClose: false, // optional: true|false  - default false
   searchLabel: 'Enter address', // optional: string      - default 'Enter address'
   keepResult: false, // optional: true|false  - default false
-  updateMap: true, // optional: true|false  - default true
+  updateMap: false, // optional: true|false  - default true
 });
 map.addControl(search);
 
