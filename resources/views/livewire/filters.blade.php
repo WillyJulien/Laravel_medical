@@ -3,7 +3,7 @@
         <div class="col-12 font-bold text-center">
             <h2>Danh mục nổi bật</h2>
         </div>
-        <div class="col-md-2 pt-5 sm:block md:hidden">
+        <div class="col-md-2 pt-5   d-block d-md-none">
             @foreach ($categories as $category)
                 <div class="form-group">
                     <div class="custom-control custom-checkbox">
@@ -32,7 +32,7 @@
             </div>
             
         </div>
-        <div class="col-md-2 pt-5 sm:hidden md:block">
+        <div class="col-md-2 pt-5 d-none d-md-block">
             @foreach ($categories as $category)
                 <div class="form-group">
                     <div class="custom-control custom-checkbox">

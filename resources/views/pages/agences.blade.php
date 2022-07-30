@@ -69,7 +69,7 @@
     var agenciesIcon = new cleaIcon({
         iconUrl: '{{ asset('/storage/cards.png') }}',
         shadowUrl: '{{ asset('/storage/cards.png') }}',
-        iconAnchor: [12, 0],
+        iconAnchor: [20, 0],
         popupAnchor: [0, 0],
         maxWidth: [5]
     })
@@ -108,12 +108,12 @@ var lc = L.control.locate({
   autoCompleteDelay: 250, // optional: number      - default 250
  
   //maxMarkers: 1, // optional: number      - default 1
-  retainZoomLevel: false, // optional: true|false  - default false
+  //retainZoomLevel: false, // optional: true|false  - default false
   animateZoom: true, // optional: true|false  - default true
   autoClose: false, // optional: true|false  - default false
   searchLabel: 'Enter address', // optional: string      - default 'Enter address'
   keepResult: false, // optional: true|false  - default false
-  updateMap: false, // optional: true|false  - default true
+  updateMap: true, // optional: true|false  - default true
 });
 map.addControl(search);
 
